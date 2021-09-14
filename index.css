@@ -1,0 +1,67 @@
+body {
+  background-color: #ccc;
+}
+
+#resume {
+  width: 1000px;
+  margin: 0 auto;
+  background-color: white;
+  border-top: 20px solid #4183FF;
+  padding: 80px;
+}
+
+#title-bar {
+  height: 150px;
+  position: relative;
+  margin-bottom: 10px;
+}
+
+.name {
+  font-weight: 700;
+  font-size: 40px;
+}
+
+.contact, .addr {
+  margin-top: 10px;
+  font-size: 18px;
+}
+#title-bar img {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  height: 150px;
+}
+
+.panel-head {
+  height: 40px;
+  font-size: 22px;
+  line-height: 40px;
+  font-weight: 700;
+  color: #4183FF;
+  padding-left: 10px;
+  border-left: 5px solid #4183FF;
+  background-color: #F7FAFF;
+  margin: 20px 0;
+}
+
+.company-time {
+  height: 30px;
+  line-height: 30px;
+  font-size: 20px !important;
+  display: flex;
+  justify-content: space-between;
+  margin: 5px 0;
+}
+
+.company {
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.time {
+  font-size: 16px;
+}
+
+#others .company-time {
+  margin-top: 15px;
+}
