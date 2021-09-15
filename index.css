@@ -22,8 +22,9 @@ body {
 }
 
 .contact, .addr {
-  margin-top: 10px;
+  margin-top: 12px;
   font-size: 18px;
+  font-weight: 700;
 }
 #title-bar img {
   position: absolute;
